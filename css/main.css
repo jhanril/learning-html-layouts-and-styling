@@ -1,0 +1,29 @@
+.block--centered {
+    display: block;
+    margin: 0 auto
+}
+.text--centered {
+    text-align: center;
+}
+.main-container {
+    width: 585px;
+    padding: 30px;
+    margin: 20px auto;
+    background-color: #fafafa;
+}
+.moby-cove-img {
+    height: 200px;
+    float: left;
+    margin: 0 40px 20px 0
+}
+.text-blockqoute {
+    font-style: italic;
+    font-size: 20px;
+    margin-right: 100px;
+}
+.call-me {
+    font-style: normal; 
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0000"
+}
