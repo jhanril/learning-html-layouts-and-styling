@@ -5,11 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moby Dick</title>
+    <style>
+        .block--centered {
+            display: block;
+            margin: 0 auto
+        }
+        .text--centered {
+            text-align: center;
+        }
+        .main-container {
+            width: 585px;
+            padding: 30px;
+            margin: 20px auto;
+            background-color: #fafafa;
+        }
+        .moby-cove-img {
+            height: 200px;
+            float: left;
+            margin: 0 40px 20px 0
+        }
+        .text-blockqoute {
+            font-style: italic;
+            font-size: 20px;
+            margin-right: 100px;
+        }
+        .call-me {
+            font-style: normal; 
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff0000"
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1 style="text-align: center;">A Softcover Book report</h1>
-        <h2 style="text-align: center;">Moby-Dick (or, The Whale)</h2>
+    <header class="block--centered">
+        <h1 class="text--centered">A Softcover Book report</h1>
+        <h2 class="text--centered">Moby-Dick (or, The Whale)</h2>
     </header>
 
     <div>
@@ -18,29 +49,17 @@
     
     <div> 
         <a href="https://commons.wikimedia.org/wiki/File:Sperm_whale_pod.jpg">
-            <img src="images/sperm_whales.jpg" alt="sperm whale" 
-            style="
-            display: block;
-            margin: 0 auto;
-            ">
+            <img src="images/sperm_whales.jpg" alt="sperm whale" class="block--centered">
         </a>
     </div>
 
-    <div 
-    style="
-    width: 585px;
-    padding: 30px;
-    margin: 20px auto;
-    background-color: #fafafa;">
+    <div class="main-container">
         <h3>Moby-Dick: A classic tale of the sea</h3>
+        
         <a href="https://www.softcover.io/read/6070fb03/moby-dick">
-            <img src="images/moby_dick.png" alt="moby-dick" 
-            style="
-            height: 200px;
-            float: left;
-            margin: 0 40px 20px 0"
-            />
+            <img src="images/moby_dick.png" alt="moby-dick" class="moby-cove-img"/>
         </a>
+
         <p>
             <a href="https://www.softcover.io/read/6070fb03/moby-dick">
                 <em>Moby-Dick</em>
@@ -48,18 +67,9 @@
             by Herman Meville begins with these immortal words:
         </p>
         
-        <blockquote 
-        style="
-        font-style: italic;
-        font-size: 20px;
-        margin-right: 100px;">
+        <blockquote class="text-blockqoute">
             <p>
-                <span 
-                style="
-                font-style: normal; 
-                font-size: 24px;
-                font-weight: bold;
-                color: #ff0000">
+                <span class="call-me">
                 Call me Ishmael. </span> Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation.
             </p>
 
